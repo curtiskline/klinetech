@@ -1,6 +1,10 @@
+/*******************
+ =Brand/Navbar/Top=
+*******************/
 #brand {
   height: 30px;
   width: 150px;
+  margin: -3% 0 0 0;
 }
 
 #landing-bg {
@@ -8,18 +12,28 @@
   width: 750px;
 }
 
-.movedown {
-  padding-bottom: 10%;
-}
-
 .top-thingy {
-  background-image: url("https://static.wixstatic.com/media/3d5b91_277f7ec99fdc43d191e8397513ff1072.jpg/v1/fill/w_980,h_300,al_c,q_80,usm_0.66_1.00_0.01/3d5b91_277f7ec99fdc43d191e8397513ff1072.jpg");
+  background-image: url("../images/sample_background.jpg");
   repeat: none;
   background-size: cover;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+
+.top-thingy img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .transparent{
   background:rgba(0,0,0,0.5);
+}
+
+/*******************
+ ===Sub-Sections===
+*******************/
+
+.movedown {
+  padding-bottom: 10%;
 }
