@@ -1,0 +1,25 @@
+#brand {
+  height: 30px;
+  width: 150px;
+}
+
+#landing-bg {
+  height: 150px;
+  width: 750px;
+}
+
+.movedown {
+  padding-bottom: 10%;
+}
+
+.top-thingy {
+  background-image: url("https://static.wixstatic.com/media/3d5b91_277f7ec99fdc43d191e8397513ff1072.jpg/v1/fill/w_980,h_300,al_c,q_80,usm_0.66_1.00_0.01/3d5b91_277f7ec99fdc43d191e8397513ff1072.jpg");
+  repeat: none;
+  background-size: cover;
+  align-items: center;
+  justify-content: center
+}
+
+.transparent{
+  background:rgba(0,0,0,0.5);
+}
